@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:~/TaskManagmentDB
+    username: user
+    password: user
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  banner:
+    location: Banner-dev.txt
